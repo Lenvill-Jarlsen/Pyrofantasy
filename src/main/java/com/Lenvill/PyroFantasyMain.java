@@ -8,10 +8,10 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = Base.MODID, name = Base.NAME, dependencies = Base.DEPENDENCIES, version = Base.VERSION)
-public class Base {
-    public static final String MODID = "base";
-    public static final String NAME = "Base";
+@Mod(modid = PyroFantasyMain.MODID, name = PyroFantasyMain.NAME, dependencies = PyroFantasyMain.DEPENDENCIES, version = PyroFantasyMain.VERSION)
+public class PyroFantasyMain {
+    public static final String MODID = "pyrofantasy";
+    public static final String NAME = "PyroFantasy";
     public static final String VERSION = "@VERSION@";
     public static final String DEPENDENCIES = "required-after:minefantasyreforged;";
 
